@@ -1,6 +1,6 @@
 /*Common elements*/
 body {
-    font-size: 67.5%;
+    font-size: 70%;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     background: #39150C url("./img/blackRock.jpeg") no-repeat fixed top center;
     padding: 0;
@@ -28,15 +28,6 @@ p {
     color: #555;
     padding: 0px;
     margin: 0px 0.5em 0.75em 0px;
-}
-ol {
-    font-size: 1.2em;
-    margin: 0 0 0 1.0em;
-    padding: 0 0 0 1.0em;
-}
-ol li {
-    margin: 0;
-    padding: 0 0 0.2em;
 }
 a, a:visited {
     color: red;
@@ -68,7 +59,7 @@ div.clear {
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background-image: #39150C url(img/banner2.png) center 0px;
+    background-image: #39150C url(./img/banner1.jpg) center 0px;
     }
     header h1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -76,6 +67,7 @@ header {
     font-size: 7.5em;
     letter-spacing: -0.025em;
     margin: 0;    
+    /*text-shadow: 1px 2px 0 #bd8437;  offset-x | offset-y | blur-radius | color */
     }
     header h2 {
     font-weight: 300;
@@ -162,23 +154,21 @@ section#sidebar {
     border-bottom: red solid 2px;
    }
 /*Main Section*/
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 section #main {
     
-
-    background-color: #FCFBE6;
     background-color: rgba(252,251,243,0.7);
     margin: 0 0 2.0em;
     padding: 1.5em  0 2.0em 1.5em;
     display: inline-block;
     border-radius: 2em;
     box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
-    
-   }
+    }
+
+   img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+
    section div.panel{
     float: left;
     position: relative;
