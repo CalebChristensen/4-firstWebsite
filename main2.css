@@ -2,7 +2,7 @@
 body {
     font-size: 70%;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    background: black; 
+    background:  black;
     padding: 0;
     margin: 0;
     background-size: 100% 100%;
@@ -42,14 +42,7 @@ hr {
 
 .contentWrapper {
     margin: 0 auto;
-    max-width: 1170px;
     padding: 0 3.0em;
-}
-.left {
-    float: left;
-}
-.right {
-    float: right;
 }
 div.clear { 
     clear:both;
@@ -57,8 +50,8 @@ div.clear {
 }
 /*Header*/
 .Banner {
-    background-image: url("./img/banner16.jpg");
-    padding: 6em 0 0.5em;
+    background-image: black;
+    padding: 0em 0 0 0;
     margin: 0 0 2.0em;
     max-width: 100%;
     max-height: 100%;
@@ -82,10 +75,10 @@ div.clear {
 /* Nav Bars */
 nav {
     color: #000;
-    font-size: 1.7em;
+    font-size: 1.5em;
     letter-spacing: 0.04em;
-    padding: 1.0em 1.0em 0.5em;
-    margin: 1.0em 0 ;
+    padding: 0em 0em 0em;
+    margin: 1.0em 0 ;  /*Black outline around storylines*/
 }
 nav ul {
     margin: 0;
@@ -107,13 +100,13 @@ nav li a:hover {
 }
 nav#utilityMenu {
     float: right;
-    margin: -1.5em 0 0 0;
-    padding: 0.35em;
+    margin: 0em 0 0 0;
+    padding: 0.0em;
     background-color: black;
     height: 1.3em;
 }
 nav#utilityMenu li {
-    padding: 0 0.25em 0 0.2em;
+    padding: 0 0 4em 0 0.0em;
     vertical-align: middle;    
 }
 nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
@@ -142,15 +135,20 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
     content: "| ";
     color: #FCFBE6;
 }
+
+/*Hero Image */
+.heroImage {
+    width: 100%;
+}
 /*Sidebar Section*/
 section#sidebar {
     width: 238px;
     float: left;
     position: relative;
     display: block;
-    background-color:whitesmoke;
-    margin: 3.7em 0 3.0em 1.5em;
-    padding: 1.7em 0.5em 2.0em 1.7em;
+    background-color: whitesmoke;
+    margin: 0em 0 2.8em 0em;
+    padding: 1.7em 0.5em 3.9em 0.3em; /*This is the interior of the sidebar */
     border-left: silver solid 2px;
     border-top: silver solid 2px;
     border-bottom: silver solid 2px;
@@ -158,7 +156,7 @@ section#sidebar {
    }
 /*Main Section*/
 
-section #main {
+section #main { 
     
     background-color: whitesmoke;
     margin: 0 0 2.0em;
@@ -173,12 +171,12 @@ section #main {
     max-height: 100%;
     }
 
-   section div.panel{
+   section div.panel{  /*This is the sizing of the Different Biomes*/
     float: left;
     position: relative;
-    width: 528px;
-    margin: 0 0.5em 2.0em 0.5em;
-    padding: 1.0em;
+    width: 616px;
+    margin: 0 0.5em 0.5em 0.5em;
+    padding: 0.1em;
     background-color: #fff;
     border-left: silver solid 2px;
     border-top: silver solid 2px;
@@ -212,7 +210,7 @@ footer {
     color: #fff;
     width: 100%;
     text-align: center;
-    padding: 1.5em 2.0em;
+    padding: 0em 0 0em;
 }
 footer ul#menuFooter {
     display: inline-block;
