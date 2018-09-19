@@ -1,33 +1,30 @@
 body {
-    font-size: 70%;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    background: black url("./img/westWorldDesktop3.gif") no-repeat fixed top center;
-    padding: 0;
-    margin: 0;
-    background-size: 100% 100%;
-    background-size: 100% 100%;
-    background-size: 100% 100%;
-    background-size: 100% 100%;
-}
+    background: url("./img/westWorldDesktop3.gif" ) center fixed;
+    background-size: cover;
+    min-height: 100vh;
+  }
 
-.delosLogIn {
-    position: absolute;
-    left: 47.5%;
-    top: 85%;
-}
 
-button {
-    color: black;
-    background-color: whitesmoke;
-    display: inline-block;
-    margin: 0 0.75em 0 0;
-    padding: 0.2em 0.5em;
-    border: 1px solid red;
+Button {
     text-transform: uppercase;
-    border-radius: 12px;
+    transition: 3s ease;
+    position: absolute;
+    margin-top:100%;
+    left:0%;
+    }
+
+a {
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
 }
-button:hover {
-    background-color: #FBF3DB;
-    border: 1px solid blue;
+
+.wrapper {
+    text-align: center;
+    padding:
 }
+
+
+
+
+
 
