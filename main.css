@@ -1,30 +1,111 @@
+a {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Desktop */
+Button {
+  margin: auto;
+  margin-top: 87vh;
+}
+
 body {
-    background: url("./img/westWorldDesktop3.gif" ) center fixed;
-    background-size: cover;
-    min-height: 100vh;
+  background: url("./img/westWorldDesktop3.gif") center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Responsive */
+@media screen and (max-width: 1157px) {
+  Button {
+    margin: auto;
+    margin-top: 87vh;
   }
 
-
-Button {
-    text-transform: uppercase;
-    transition: 3s ease;
-    position: absolute;
-    margin-top:100%;
-    left:0%;
-    }
-
-a {
-    color:white;
-    font-family: 'Josefin Sans', sans-serif;
+  body {
+    background: url("./img/westWorldDesktop3.gif") center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
 
-.wrapper {
-    text-align: center;
-    padding:
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  Button {
+    margin: auto;
+    margin-top: 87vh;
+  }
+
+  body {
+    background: url("./img/westWorldDesktop3.gif") center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
 
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  Button {
+    margin: auto;
+    margin-top: 87vh;
+  }
 
+  body {
+    background: url("./img/westWorldDesktop3.gif") center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
 
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  Button {
+    margin: auto;
+    margin-top: 87vh;
+  }
 
+  body {
+    background: url("./img/westWorldDesktop3.gif") center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+  }
+}
 
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  Button {
+    margin: auto;
+    margin-top: 84vh;
+  }
 
+  body {
+    background: url("./img/westWorldDesktop3.gif") center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+  Button {
+    margin: auto;
+    margin-top: 83vh;
+  }
+
+  body {
+    background: url("./img/westWorldDesktop3.gif") center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+  }
+}
